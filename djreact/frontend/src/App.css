@@ -1,0 +1,122 @@
+@font-face {
+    font-family: d8;
+    src: url(../static/frontend/Dpix_8pt.ttf);
+}
+@font-face {
+    font-family: chava;
+    src: url(../static/frontend/chava.ttf);
+}
+body {
+    background: #1a1b20;
+    color: #c2c2c4;
+    font-family: 'd8', serif;
+    padding: 30px 25%;
+    --color: #8673A1;
+}
+a {
+    color: #c2c2c4;
+}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: var(--color);
+    font-family: 'chava', serif;
+}
+h3 {
+    font-weight: 500;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.cats {
+    list-style: none;
+    display: flex;
+    margin-bottom: 30px;
+    padding: 0;
+    font-size: .85em;
+}
+.cats li {
+    margin-right: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    user-select: none;
+}
+.cats .active {
+    color: var(--color);
+}
+.article-block {
+    height: auto;
+    margin-bottom: 40px;
+}
+.article-block h2 {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.article-block p {
+    font-size: .95em;
+    margin: 5px 0;
+}
+.article-block img {
+    height: 80px;
+    width: 100%;
+}
+.article-cover {
+    display: block;
+    margin: 10px 0;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+.article-text {
+    font-size: .95em;
+    margin-bottom: 50px;
+}
+.comment {
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    margin-bottom: 5px;
+    font-size: .95em;
+    padding-bottom: 10px;
+}
+.comment h3 {
+    font-weight: 500;
+    margin: 0;
+    color: white;
+    font-size: 1em;
+    display: inline-block;
+}
+.comment p {
+    margin: 0;
+    font-size: .95em;
+}
+form {
+    width: 100%;
+    margin: 30px 0 50px 0;
+}
+.inputWrapper {
+    display: flex;
+    margin-bottom: 10px;
+}
+.inputWrapper label {
+    width: 20%;
+    font-size: .9em;
+    display: block;
+}
+.inputWrapper input {
+    background: transparent;
+    width: 80%;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: inherit;
+    font-family: inherit;
+}
+.inputWrapper input:focus {
+    outline: 0;
+}
+button {
+    margin-top: 5px;
+    margin-left: 20%;
+    background: var(--color);
+    border: 0;
+    font-family: inherit;
+    padding: 5px 10px;
+}
